@@ -1,0 +1,84 @@
+.container{
+    background-color: rgb(160, 160, 160);
+    border-radius: 2%;
+}
+.image {
+    width: 30%;
+    margin-left: 30px ;
+}
+
+.name {
+    width: 30%;
+}
+
+.bg1 {
+    display: flex;
+    align-items: center;
+}
+
+.email {
+    width: 30% ;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    align-items: center;
+    padding-left: 250px;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+ body {
+    /* background-color: var(--main-color); */
+    background-image: linear-gradient(rgb(0, 0, 0),rgb(255, 255, 255));
+    width : 80%;
+    margin-left: 145px;
+  }
+#img {
+    display: flex;
+    border-radius: 50%;
+    height: 270px;
+    width: 270px;
+    margin-left: 36%;
+}
+table,tr,td{
+    border:2px solid black;
+    border-collapse: collapse;
+    height:auto;
+    padding: 5px;
+    font-size: 25px;
+    background-color:rgb(202, 210, 255);
+}
+h2{
+    font-size: 35px;
+    color: white;
+    background-color: rgb(57, 57, 57);
+    padding: 2px;
+    align-content : center;
+}
+h1{
+    font-size: 50px;
+}
+*{
+    font-size: 25px;
+    font-family : sans-serif;
+}
+.Education{
+    background-color:aqua;
+}
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 48px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #006EFF;
+    color: black;
+}
+
+/* Add a color to the active/current link */
